@@ -8,7 +8,7 @@ namespace TestConsoleApp.BaseCalculations
 {
     internal class Substract
     {
-        static int Subtract(int minuend, int subtrahend)
+        static int Subtraction(int minuend, int subtrahend)
         {
             int difference = minuend - subtrahend;
             return difference;
