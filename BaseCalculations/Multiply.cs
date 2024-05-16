@@ -8,5 +8,10 @@ namespace TestConsoleApp.BaseCalculations
 {
     internal class Multiply
     {
+        static int Multiplication(int num1, int num2)
+        {
+            int product = num1 * num2;
+            return product;
+        }
     }
 }
