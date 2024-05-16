@@ -28,19 +28,6 @@ namespace TestConsoleApp.BaseCalculations
             }
             return result;
         }
-        public void test()
-        {
 
-        }
-
-    }
-    public class two:Add
-    {
-        public int add(int x, int y)
-        {
-            var result = x + y;
-            return result;
-        }
-        
     }
 }

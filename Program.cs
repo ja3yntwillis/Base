@@ -1,11 +1,23 @@
 ﻿using TestConsoleApp.BaseCalculations;
+using TestConsoleApp.PlantPotting.FruitPlants;
+using TestConsoleApp.Skeleton;
 
 static void main()
 {
-    two obj = new two();
-    Add obj2 = new two();
-    obj.test();
-    obj.add(1, 2);
-    obj2.add(1, 2);
+
+   //abs
+    Guava guava = new Guava();
+
+    guava.GetSoil();
+    guava.GetPot();
+
+    //interface
+    pear pear = new pear();
+
+    pear.GetPot();
+    pear.GetSoil();
+
 }
+
+
 main();
