@@ -8,5 +8,15 @@ namespace TestConsoleApp.BaseCalculations
 {
     internal class Division
     {
+        static int Divide(int dividend, int divisor)
+        {
+            if (divisor == 0)
+            {
+                throw new ArgumentException("Divisor cannot be zero.");
+            }
+
+            int quotient = dividend / divisor;
+            return quotient;
+        }
     }
 }
